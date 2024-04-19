@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.centrar{
+    position: relative;
+    display: flex   ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letrap{
+    font-size: small;
+}
+.borde {
+    border: 0.009cm solid black;
+    border-style:ridge;
+    border-radius: 0.2cm;
+    align-items: center;
+    padding: 30px;
+}
+
+.grupo{
+    position: relative;
+    margin-top: 8px;
+}
+
+.grupo label{
+    font-weight: 100;
+}
+
+.grupo input{
+    outline:0;
+	color: #333333;
+	font-size: 14px;
+	padding: 7px 10px;
+	border-radius: 5px;
+	border: 1px solid #d6d6d6;
+	background-color: #F5F5F5FF;
+    width: 343px;
+    height: 35px;
+}
+
+.rem{
+    margin: 0.3cm;
+    margin-top: 20px;
+    font-size: 12px;
+    list-style-type: square;
+}
+
+.rem a
+{   
+    color: rgb(52, 121, 181);
+    text-decoration: unset;
+}
+.boton {
+    background-color: #ffdb81;
+    border: rgb(244, 178, 10);
+    border-radius: 1cm;
+    width: 350px;
+    margin-top: 10px;
+    height: 25px;
+}
+
+.edd p{
+    margin: 12px 0px 12px 0px;
+    white-space: pre-line;
+}
+
+
+
+.ayuda {
+    
+    margin: 10px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+  }
+
+.contenido{
+    
+    font-size: 13px;
+}
+
+.button1{
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont ul{
+    list-style: none;
+    display: flex;
+}
+
+img{
+    margin-top: 30px;
+    width: 100px;
+}
+
+.cont a {
+    margin: 10px;
+}
